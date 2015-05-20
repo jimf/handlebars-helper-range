@@ -1,0 +1,33 @@
+{
+  "name": "handlebars-helper-range",
+  "version": "1.0.0",
+  "description": "Handlebars helper for generating a list of integers",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint .",
+    "test": "tape test/*.js",
+    "validate": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimf/handlebars-helper-range"
+  },
+  "keywords": [
+    "handlebars",
+    "helper"
+  ],
+  "author": "Jim Fitzpatrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimf/handlebars-helper-range/issues"
+  },
+  "homepage": "https://github.com/jimf/handlebars-helper-range",
+  "devDependencies": {
+    "handlebars": "^3.0.3",
+    "jshint": "^2.7.0",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "lodash": "^3.9.1"
+  }
+}
