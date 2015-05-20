@@ -5,9 +5,9 @@ var range = require('lodash/utility/range');
 /**
  * Invoke block with a range of integer values.
  *
- * @param {number} [start] Value to start at. Defaults to 0
+ * @param {number} [start=0] Value to start at
  * @param {number} stop Value to stop at
- * @param {number} [step] Value to increment (or decrement if negative) by
+ * @param {number} [step=1] Value to increment or decrement by
  * @return {string} Result of accumulated blocks
  */
 module.exports = function() {
