@@ -26,6 +26,13 @@ var Handlebars = require('handlebars');
 Handlebars.registerHelper('range', require('handlebars-helper-range'));
 ```
 
+Once registered, templates will have access to the "range" helper which
+accepts up to three arguments: start (optional, defaults to 0, the start
+of the range), stop (the end of the range), and step (optional, defaults
+to 1, the value to increment or decrement by).
+
+## Example Templates
+
 **templates/example1.handlebars**
 
 Example template file that generates the list 0 through 9.
