@@ -4,6 +4,7 @@
   "description": "Handlebars helper for generating a list of integers",
   "main": "index.js",
   "scripts": {
+    "coverage": "istanbul cover test/*.js",
     "lint": "jshint .",
     "test": "tape test/*.js",
     "validate": "npm run lint && npm test"
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/jimf/handlebars-helper-range",
   "devDependencies": {
     "handlebars": "^3.0.3",
+    "istanbul": "^0.3.14",
     "jshint": "^2.7.0",
     "tape": "^4.0.0"
   },
