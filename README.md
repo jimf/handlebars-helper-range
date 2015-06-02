@@ -3,8 +3,9 @@
 A [Handlebars][] helper for generating a range of integer values for block
 context.
 
-[![Build Status][build-badge]][build-status]
 [![npm Version][npm-badge]][npm]
+[![Build Status][build-badge]][build-status]
+[![Test Coverage][coverage-badge]][coverage-result]
 [![Dependency Status][dep-badge]][dep-status]
 
 ## Installation
@@ -78,5 +79,7 @@ MIT
 [build-status]: https://travis-ci.org/jimf/handlebars-helper-range
 [npm-badge]: https://img.shields.io/npm/v/handlebars-helper-range.svg
 [npm]: https://www.npmjs.org/package/handlebars-helper-range
+[coverage-badge]: https://img.shields.io/coveralls/jimf/handlebars-helper-range.svg
+[coverage-result]: https://coveralls.io/r/jimf/handlebars-helper-range
 [dep-badge]: https://img.shields.io/david/jimf/handlebars-helper-range.svg
 [dep-status]: https://david-dm.org/jimf/handlebars-helper-range
