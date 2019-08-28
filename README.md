@@ -72,6 +72,9 @@ Example template file that generates the list 0, 5, 10, 15.
 
 ## Changelog
 
+#### 1.1.1
+- No changes. Build fix.
+
 #### 1.1.0
 - Removed lodash dependency
 

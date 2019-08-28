@@ -10,6 +10,7 @@
  * @return {number[]} Array of numbers
  */
 function range(start, end, step) {
+    /* jshint eqeqeq:false, maxcomplexity:7 */
     start = Number(start) || 0;
     end = end == null ? end : Number(end);
     step = step == null ? 1 : Number(step);
