@@ -70,6 +70,14 @@ Example template file that generates the list 0, 5, 10, 15.
 </ul>
 ```
 
+## Changelog
+
+#### 1.1.0
+- Removed lodash dependency
+
+#### 1.0.0
+- Initial release
+
 ## License
 
 MIT
