@@ -1,6 +1,34 @@
 'use strict';
 
-var range = require('lodash/utility/range');
+/**
+ * Produce a range of numbers (positive and/or negative), processing from
+ * `start` up to, but not including, `end`.
+ *
+ * @param {number} start Range start value (inclusive)
+ * @param {number} [end] Range end value (exclusive)
+ * @param {number} [step=1] Value to increment by
+ * @return {number[]} Array of numbers
+ */
+function range(start, end, step) {
+    start = Number(start) || 0;
+    end = end == null ? end : Number(end);
+    step = step == null ? 1 : Number(step);
+
+    if (end == null) {
+        end = start;
+        start = 0;
+    }
+
+    var length = Math.max(Math.ceil((end - start) / (step || 1)), 0);
+    var result = new Array(length);
+
+    for (var i = 0; i < length; i += 1) {
+        result[i] = start;
+        start += step;
+    }
+
+    return result;
+}
 
 /**
  * Invoke block with a range of integer values.
